@@ -3,6 +3,7 @@ using GFolha_Model.Exceptions;
 using GFolha_Model.IServices;
 using GFolha_Model.Model;
 using GFolha_Model.Services;
+using GFolha_Model.Response;
 
 namespace GFolha_Model.Controller
 {
@@ -17,22 +18,25 @@ namespace GFolha_Model.Controller
             _contatoService = new ContatoService();
         }
 
-        public static void InserePessoa(PessoaModel pessoa)
+        public static ResponsePattern InserePessoa(PessoaModel pessoa)
         {
             try
             {
                 if(Utils.Utils.CheckNullObject(pessoa))
                     throw new NullObjException();
 
-                _pessoaService.InserePessoa(pessoa);
+                var success = _pessoaService.InserePessoa(pessoa);
+                return success
+                    ? new ResponsePattern() {Message = Resources.MessageSuccessInsertGeneric, Success = true}
+                    : new ResponsePattern() {Message = Resources.MessageErrorInsertGeneric, Success = false};
             }
             catch (NullObjException)
             {
-                throw new NullObjException(Resources.ExceptionNullObj);
+                return new ResponsePattern() {Success = false, Message = Resources.ExceptionNullObj};
             }
             catch (Exception)
             {
-                throw new Exception(Resources.ExceptionGenericError);
+                return new ResponsePattern() { Success = false, Message = Resources.ExceptionGenericError };
             }
         }
 

@@ -121,6 +121,12 @@
     <value>Erro genérico!</value>
   </data>
   <data name="ExceptionNullObj" xml:space="preserve">
-    <value>Erro: objeto vazio!</value>
+    <value>Erro: objeto vazio ou nulo!</value>
+  </data>
+  <data name="MessageErrorInsertGeneric" xml:space="preserve">
+    <value>Erro ao cadastrar</value>
+  </data>
+  <data name="MessageSuccessInsertGeneric" xml:space="preserve">
+    <value>Cadastro realizado com sucesso</value>
   </data>
 </root>

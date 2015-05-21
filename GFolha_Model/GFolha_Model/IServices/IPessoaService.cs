@@ -5,6 +5,6 @@ namespace GFolha_Model.IServices
 {
     public interface IPessoaService
     {
-        void InserePessoa(PessoaModel pessoa);
+        bool InserePessoa(PessoaModel pessoa);
     }
 }

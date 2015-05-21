@@ -8,3 +8,13 @@ c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Mo
 c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\bin\Debug\DevUtils.xml
 c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.Resources.resources
 c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.csproj.GenerateResource.Cache
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_Model\bin\Debug\GFolha_Model.dll
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_Model\bin\Debug\GFolha_Model.pdb
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_Model\bin\Debug\DevUtils.dll
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_Model\bin\Debug\DevUtils.pdb
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_Model\bin\Debug\DevUtils.xml
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.csprojResolveAssemblyReference.cache
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.Resources.resources
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.csproj.GenerateResource.Cache
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.dll
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.pdb

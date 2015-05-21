@@ -5,9 +5,9 @@ namespace GFolha_Model.Services
 {
     public class PessoaService : IPessoaService
     {
-        public void InserePessoa(PessoaModel pessoa)
+        public bool InserePessoa(PessoaModel pessoa)
         {
-            throw new System.NotImplementedException();
+            return true;
         }
     }
 }

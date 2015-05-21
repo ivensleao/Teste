@@ -55,6 +55,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Response\ResponsePattern.cs" />
     <Compile Include="Services\ContatoService.cs" />
     <Compile Include="Services\PessoaService.cs" />
     <Compile Include="Utils\Utils.cs" />

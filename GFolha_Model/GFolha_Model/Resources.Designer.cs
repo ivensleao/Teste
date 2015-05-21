@@ -70,11 +70,29 @@ namespace GFolha_Model {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Erro: objeto vazio!.
+        ///   Looks up a localized string similar to Erro: objeto vazio ou nulo!.
         /// </summary>
         internal static string ExceptionNullObj {
             get {
                 return ResourceManager.GetString("ExceptionNullObj", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Erro ao cadastrar.
+        /// </summary>
+        internal static string MessageErrorInsertGeneric {
+            get {
+                return ResourceManager.GetString("MessageErrorInsertGeneric", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cadastro realizado com sucesso.
+        /// </summary>
+        internal static string MessageSuccessInsertGeneric {
+            get {
+                return ResourceManager.GetString("MessageSuccessInsertGeneric", resourceCulture);
             }
         }
     }
