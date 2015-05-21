@@ -1,0 +1,10 @@
+c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\bin\Debug\GFolha_Model.dll
+c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\bin\Debug\GFolha_Model.pdb
+c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.csprojResolveAssemblyReference.cache
+c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.dll
+c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.pdb
+c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\bin\Debug\DevUtils.dll
+c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\bin\Debug\DevUtils.pdb
+c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\bin\Debug\DevUtils.xml
+c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.Resources.resources
+c:\users\ivens.leao\documents\visual studio 2012\Projects\GFolha_Model\GFolha_Model\obj\Debug\GFolha_Model.csproj.GenerateResource.Cache
