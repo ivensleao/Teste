@@ -123,10 +123,22 @@
   <data name="ExceptionNullObj" xml:space="preserve">
     <value>Erro: objeto vazio ou nulo!</value>
   </data>
+  <data name="MessageErrorDeleteGeneric" xml:space="preserve">
+    <value>Erro ao excluir registro</value>
+  </data>
   <data name="MessageErrorInsertGeneric" xml:space="preserve">
     <value>Erro ao cadastrar</value>
   </data>
+  <data name="MessageErrorUpdateGeneric" xml:space="preserve">
+    <value>Erro ao atualizar registro</value>
+  </data>
+  <data name="MessageSuccessDeleteGeneric" xml:space="preserve">
+    <value>Cadastro excluído com sucesso</value>
+  </data>
   <data name="MessageSuccessInsertGeneric" xml:space="preserve">
     <value>Cadastro realizado com sucesso</value>
+  </data>
+  <data name="MessageSuccessUpdateGeneric" xml:space="preserve">
+    <value>Cadastro atualizado com sucesso</value>
   </data>
 </root>

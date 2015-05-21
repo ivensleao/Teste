@@ -79,6 +79,15 @@ namespace GFolha_Model {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Erro ao excluir registro.
+        /// </summary>
+        internal static string MessageErrorDeleteGeneric {
+            get {
+                return ResourceManager.GetString("MessageErrorDeleteGeneric", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Erro ao cadastrar.
         /// </summary>
         internal static string MessageErrorInsertGeneric {
@@ -88,11 +97,38 @@ namespace GFolha_Model {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Erro ao atualizar registro.
+        /// </summary>
+        internal static string MessageErrorUpdateGeneric {
+            get {
+                return ResourceManager.GetString("MessageErrorUpdateGeneric", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cadastro excluído com sucesso.
+        /// </summary>
+        internal static string MessageSuccessDeleteGeneric {
+            get {
+                return ResourceManager.GetString("MessageSuccessDeleteGeneric", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cadastro realizado com sucesso.
         /// </summary>
         internal static string MessageSuccessInsertGeneric {
             get {
                 return ResourceManager.GetString("MessageSuccessInsertGeneric", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cadastro atualizado com sucesso.
+        /// </summary>
+        internal static string MessageSuccessUpdateGeneric {
+            get {
+                return ResourceManager.GetString("MessageSuccessUpdateGeneric", resourceCulture);
             }
         }
     }
