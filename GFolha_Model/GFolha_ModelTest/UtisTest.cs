@@ -7,12 +7,7 @@ namespace GFolha_ModelTest
     [TestClass]
     public class UtisTest
     {
-        [TestMethod]
-        public void TesteObjetoNull()
-        {
-            //Assert.AreNotEqual(Utils.CheckNullObject(null), true);
-        }
-
+       
         [TestMethod]
         public void TesteObjetoPreenchido()
         {
