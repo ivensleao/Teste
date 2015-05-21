@@ -1,0 +1,7 @@
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_ModelTest\obj\Debug\GFolha_ModelTest.csprojResolveAssemblyReference.cache
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_ModelTest\bin\Debug\GFolha_ModelTest.dll
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_ModelTest\bin\Debug\GFolha_ModelTest.pdb
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_ModelTest\bin\Debug\GFolha_Model.dll
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_ModelTest\bin\Debug\GFolha_Model.pdb
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_ModelTest\obj\Debug\GFolha_ModelTest.dll
+D:\GitHub\Projetos\Teste\GFolha_Model\GFolha_ModelTest\obj\Debug\GFolha_ModelTest.pdb
