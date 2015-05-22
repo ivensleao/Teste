@@ -16,9 +16,17 @@ namespace GFolha_Model.Utils
             return obj.Equals(null);
         }
 
-        public static bool CheckEmptyList(IList<object> list)
+        /// <summary>
+        /// Função que converte uma string para data
+        /// </summary>
+        /// <param name="sDate">string data</param>
+        /// <returns>DateTime()</returns>
+        public static DateTime ConvertStringToDateTime(string sDate)
         {
-            return list.Any();
+            if (string.IsNullOrEmpty(sDate))
+                return DateTime.Now;
+            
+            return Convert.ToDateTime(sDate);
         }
     }
 }

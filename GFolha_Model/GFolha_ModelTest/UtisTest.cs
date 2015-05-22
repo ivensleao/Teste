@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using GFolha_Model.Utils;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -17,11 +17,19 @@ namespace GFolha_ModelTest
         }
 
         [TestMethod]
-        public void TesteListaVazia()
+        public void TesteConverteStringParaData()
         {
-            var lista = new List<int>();
+            var data = "20/12/2015";
 
-            Assert.AreEqual(Utils.CheckEmptyList(lista), true);
+            Assert.AreEqual(Utils.ConvertStringToDateTime(data), new DateTime(2015,12,20));
+        }
+
+        [TestMethod]
+        public void TesteConverteStringVaziaParaData()
+        {
+            var data = string.Empty;
+
+            Assert.AreEqual(Utils.ConvertStringToDateTime(data), DateTime.Now);
         }
     }
 }
