@@ -75,6 +75,7 @@ namespace GFolha_Model.Utils
             return !ValidaFormatacaoCpf(cpf) && ValidaCpf(cpf);
         }
 
+        #region Funções privadas
         private static bool ValidaCpf(string cpf)
         {
             int dv1;
@@ -123,5 +124,6 @@ namespace GFolha_Model.Utils
 
             return dv2 == calcArr[10];
         }
+        #endregion
     }
 }
