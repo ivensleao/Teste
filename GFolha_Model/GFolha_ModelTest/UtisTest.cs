@@ -31,5 +31,37 @@ namespace GFolha_ModelTest
 
             Assert.AreEqual(Utils.ConvertStringToDateTime(data), DateTime.Now);
         }
+
+        [TestMethod]
+        public void TesteEmailValido()
+        {
+            var email = "teste@teste.com";
+
+            Assert.AreEqual(Utils.ValidateEmail(email), true);
+        }
+
+        [TestMethod]
+        public void TesteEmailInvalido()
+        {
+            var email = ".teste@.te**/.";
+
+            Assert.AreNotEqual(Utils.ValidateEmail(email), true);
+        }
+
+        [TestMethod]
+        public void TesteFormatacaoCpfValida()
+        {
+            var cpf = "000.000.000-00";
+
+            Assert.AreEqual(Utils.ValidaFormatacaoCpf(cpf), true);
+        }
+
+        [TestMethod]
+        public void TesteFormatacaoInvalida()
+        {
+            var cpf = "00000000000";
+
+            Assert.AreEqual(Utils.ValidaFormatacaoCpf(cpf), false);
+        }
     }
 }
