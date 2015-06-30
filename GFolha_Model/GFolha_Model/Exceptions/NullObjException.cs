@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 
 namespace GFolha_Model.Exceptions
 {
-    public class NullObjException : Exception
+    class NullObjException : Exception
     {
         public NullObjException()
             : base()

@@ -35,6 +35,9 @@ namespace GFolha_Model.Utils
         /// <returns>true/false</returns>
         public static bool ValidateEmail(string email)
         {
+            if (string.IsNullOrEmpty(email))
+                return false;
+
             return Regex.IsMatch(email,
                 @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z",
                 RegexOptions.IgnoreCase);

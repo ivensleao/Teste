@@ -36,11 +36,11 @@ namespace GFolha_Model.Controller
             }
             catch (NullObjException)
             {
-                return new ResponsePattern() {Success = false, Message = Resources.ExceptionNullObj};
+                return new ResponsePattern() { Message = Resources.ExceptionNullObj, Success = false };
             }
             catch (Exception)
             {
-                return new ResponsePattern() { Success = false, Message = Resources.ExceptionGenericError };
+                return new ResponsePattern() { Message = Resources.ExceptionGenericError, Success = false };
             }
         }
 

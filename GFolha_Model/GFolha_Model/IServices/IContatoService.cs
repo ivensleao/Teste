@@ -2,7 +2,7 @@
 
 namespace GFolha_Model.IServices
 {
-    public interface IContatoService
+    interface IContatoService
     {
         void InsereContato(ContatoModel contato);
     }

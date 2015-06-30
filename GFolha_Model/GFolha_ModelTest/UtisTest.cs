@@ -49,6 +49,12 @@ namespace GFolha_ModelTest
         }
 
         [TestMethod]
+        public void TesteEmailVazio()
+        {
+            Assert.AreEqual(Utils.ValidateEmail((String.Empty)), false);
+        }
+
+        [TestMethod]
         public void TesteFormatacaoCpfValida()
         {
             var cpf = "000.000.000-00";
